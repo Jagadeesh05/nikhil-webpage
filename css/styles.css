@@ -1,0 +1,192 @@
+
+body {
+  text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/************************************************************* Main Headings *******************************************************/
+
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 4rem;
+}
+
+/************************************************************* Sections *******************************************************/
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+
+/************************************************************ title section *******************************************************/
+
+#title .container-fluid {
+  color: white;
+  text-align: center;
+  padding: 3% 15% 7%;
+}
+
+.title-content{
+  padding-bottom: 2rem;
+}
+
+/************************************************************* Navigation bar *******************************************************/
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+/************************************************************* Download Buttons *******************************************************/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/************************************************************* Title images *******************************************************/
+
+.title-image-parent{
+  position: relative;
+}
+
+.title-image {
+  position: absolute;
+  right: 25%;
+  width: 60%;
+  transform: rotate(30deg);
+}
+
+
+/**************************************************** features Section ***********************************************/
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-title {
+  line-height: 1.5;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+
+/************************************************************* Testimonial section *******************************************************/
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-feedback {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/************************************************************* about-us section *******************************************************/
+
+#about-us{
+    padding: 7% 10%;
+}
+
+.about-us-card-header {
+  line-height: 1.5;
+}
+
+.about-us-heading, .about-us-card-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.about-us-column {
+  padding: 3% 2%;
+}
+
+
+/************************************************************* CTA section *******************************************************/
+
+#CTA {
+
+  color: white;
+
+
+}
+
+.bottom-section{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/************************************************************* Footer section *******************************************************/
+
+.footer-icon {
+  margin: 2%;
+}
+
+.social-icon {
+  color: black;
+  margin: 0.5%;
+}
+
+.copyright {
+  font-weight: 400;
+}
